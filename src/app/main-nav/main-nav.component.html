@@ -1,0 +1,41 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport
+      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+      mode='side'
+      [opened]= "true" disableClose="true">
+    <mat-toolbar>Gliederung</mat-toolbar>
+    <!--[attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+      [mode]="(isHandset$ | async) ? 'side' : 'side'"
+      [opened]="(isHandset$ | async) === false">-->
+    <mat-nav-list>
+      <a routerLink="/einleitung" routerLinkActive="active">1.) Einleitung</a>
+      <a routerLink="/erklaerung-mvc-mvvm-etc" routerLinkActive="active">1.1) Erklärung MVC, MVVM, etc.</a>
+      <a routerLink="/methodik-artefakt-design-science-research" routerLinkActive="active">1.2) Methodik / Artefakt (Design Science Research)</a>
+      <a routerLink="/forschungsfrage" routerLinkActive="active">1.3) (Forschungs)frage</a>
+      <a routerLink="/angular" routerLinkActive="active">2.) Angular</a>
+      <a routerLink="/architektur-konzept" routerLinkActive="active">2.1) Architektur und Konzept</a>
+      <a routerLink="/datenbindung" routerLinkActive="active">3.) Datenbindung</a>
+      <a routerLink="/one-way-binding" routerLinkActive="active">3.1) One-Way-Binding</a>
+      <a routerLink="/two-way-binding" routerLinkActive="active">3.2) Two-Way-Binding</a>
+      <a routerLink="/datenhaltung" routerLinkActive="active">4.) Datenhaltung</a>
+      <a routerLink="/rest-crud-http" routerLinkActive="active">4.1) Rest / CRUD / HTTP</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">Kapitelinhalt
+     <!-- <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()"
+        *ngIf="isHandset$ | async">
+        <mat-icon aria-label="Side nav toggle icon">Menü</mat-icon>
+      </button> -->
+    </mat-toolbar>
+    <!-- Add Content Here -->
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+
+
