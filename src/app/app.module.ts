@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule, routingComponents } from './app-routing.module';
@@ -14,6 +15,9 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { StudentenComponent } from './studenten/studenten.component';
+import { DozentenComponent } from './dozenten/dozenten.component';
+import { DozentDetailComponent } from './dozent-detail/dozent-detail.component';
 
 
 @NgModule({
@@ -21,11 +25,15 @@ import { MatListModule } from '@angular/material/list';
     AppComponent,
     routingComponents,
     ErklaerungMvcMvvmEtcComponent,
-    MainNavComponent
+    MainNavComponent,
+    StudentenComponent,
+    DozentenComponent,
+    DozentDetailComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     BrowserAnimationsModule ,
     MaterialModule,
     FormsModule,

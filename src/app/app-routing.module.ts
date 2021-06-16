@@ -13,6 +13,7 @@ import { OneWayBindingComponent } from './one-way-binding/one-way-binding.compon
 import { RestCrudHttpComponent } from './rest-crud-http/rest-crud-http.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 import { ErklaerungMvcMvvmEtcComponent } from './erklaerung-mvc-mvvm-etc/erklaerung-mvc-mvvm-etc.component';
+import { StudentenComponent } from './studenten/studenten.component';
 
 const routes: Routes = [
   {path: 'einleitung', component: EinleitungComponent},
@@ -25,7 +26,7 @@ const routes: Routes = [
   {path: 'fazit', component: FazitComponent},
   {path: 'forschungsfrage', component: ForschungsfrageComponent},
   {path: 'one-way-binding', component: OneWayBindingComponent},
-  {path: 'two-way-binding', component: TwoWayBindingComponent},
+  {path: 'two-way-binding', component: StudentenComponent},
   {path: 'rest-crud-http', component: RestCrudHttpComponent},
   {path: 'erklaerung-mvc-mvvm-etc', component: ErklaerungMvcMvvmEtcComponent},
 

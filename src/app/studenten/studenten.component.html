@@ -1,0 +1,19 @@
+
+<div>
+  <p>
+    Geben Sie die Daten des Studenten ein:
+  </p>
+  <br>
+  <p>Student</p>
+  <label for="student">Nachname: </label><br>
+  <input id="student" [(ngModel)]="student.nachname"><br>
+  <label for="student">Vorname: </label><br>
+  <input id="student" [(ngModel)]="student.vorname">
+</div>
+<br>
+<div>
+  <p> Two-Way-Databinding stellt in beide Richtungen die Verbindung zwischen den HTML-Elementen im HTML-Dokument und in Template-Dateien sowie den Daten und dem Code in der Anwendung her.</p>
+
+  <p>Ihre oben gemachte Eingabe lautet:</p>
+   {{student.vorname}} {{student.nachname}}
+</div>

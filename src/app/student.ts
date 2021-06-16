@@ -1,4 +1,4 @@
-export interface studenten {
+export interface Student {
   id: number,
   vorname: string,
   nachname: string,
