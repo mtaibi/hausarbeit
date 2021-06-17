@@ -1,0 +1,9 @@
+<p>form works!</p>
+<form #dozentenForm="ngForm">
+  <input type="text" name="id" id="id" placeholder="ID"><br>
+  <input type="text" name="vorname" id="vorname" placeholder="Vorname"><br>
+  <input type="text" name="nachname" id="nachname" placeholder="Nachname"><br>
+  <button>Speichern</button>
+</form>
+<p>{{dozentenForm.value | json}}</p>
+<p>{{dozentenForm.valid}}</p>

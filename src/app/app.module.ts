@@ -18,6 +18,7 @@ import { MatListModule } from '@angular/material/list';
 import { StudentenComponent } from './studenten/studenten.component';
 import { DozentenComponent } from './dozenten/dozenten.component';
 import { DozentDetailComponent } from './dozent-detail/dozent-detail.component';
+import { FormComponent } from './form/form.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { DozentDetailComponent } from './dozent-detail/dozent-detail.component';
     MainNavComponent,
     StudentenComponent,
     DozentenComponent,
-    DozentDetailComponent
+    DozentDetailComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,

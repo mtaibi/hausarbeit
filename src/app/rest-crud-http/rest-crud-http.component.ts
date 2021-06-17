@@ -7,11 +7,8 @@ import { Observable } from 'rxjs';
   selector: 'app-rest-crud-http',
   template: `
   <p>Angular implementiert CRUD sowie HTTP-Schnittstellen. </p>
+
   <app-dozenten></app-dozenten>
-
-
-
-
 
   `,
   styles: [

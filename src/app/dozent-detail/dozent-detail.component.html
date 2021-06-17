@@ -1,10 +1,11 @@
+  <div *ngIf="dozent">
 
-
-  <h2>{{dozent.nachname | uppercase}} Details</h2>
+    <h2>{{dozent.nachname | uppercase}} Details</h2>
   <div><span>id: </span>{{dozent.id}}</div>
   <div>
     <label for="dozent-vorname">Dozent name: </label>
-    <input id="dozent-name" [(ngModel)]="dozent.nachname" placeholder="name">
+    <input id="dozent-name"  [(ngModel)]="dozent.nachname" placeholder="nachname">
   </div>
+</div>
 
 

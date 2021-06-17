@@ -12,9 +12,10 @@ export class DozentDetailComponent implements OnInit {
 
   @Input() dozent?: Dozent;
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
   }
+
 
 }

@@ -1,26 +1,24 @@
 {
-  "studenten": [
-    {
-      "id": 1,
-      "vorname": "Murad",
-      "nachname": "Taibi",
-      "matrikelnummer": 490215
-    },
-    {
-      "id": 2,
-      "vorname": "Max",
-      "nachname": "Mustermann",
-      "matrikelnummer": 123456
-    }
-  ],
-
   "dozenten": [
     {
       "id": 1,
       "vorname": "Klaus",
       "nachname": "Wilderotter"
+    },
+    {
+      "id": 2,
+      "vorname": "Thomas",
+      "nachname": "Städter"
+    },
+    {
+      "id": 3,
+      "vorname": "Andreas",
+      "nachname": "Lehmann"
+    },
+    {
+      "id": 4,
+      "vorname": "Peter",
+      "nachname": "Hoffmann"
     }
   ]
-
-
 }
