@@ -13,7 +13,7 @@ import { Component, OnInit } from '@angular/core';
     Das MVC-Konzept wurde 1979 zunächst für Benutzeroberflächen in Smalltalk durch Trygve Reenskaug beschrieben (Seeheim-Modell), der damals an Smalltalk im Xerox PARC arbeitete.<br>
     Es gilt mittlerweile aber als De-facto-Standard für den Grobentwurf vieler komplexer Softwaresysteme, teils mit Differenzierungen und oftmals mehreren jeweils nach dem MVC-Muster aufgeteilten Modulen.<br>
     </p>
-    <img src="/assets/bild.jpg" alt="image">
+    <img src="/assets/MVC.jpg" alt="image">
   `,
   styles: [
   ]

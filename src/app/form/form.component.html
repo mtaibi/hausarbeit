@@ -1,9 +1,30 @@
-<p>form works!</p>
-<form #dozentenForm="ngForm">
-  <input type="text" name="id" id="id" placeholder="ID"><br>
-  <input type="text" name="vorname" id="vorname" placeholder="Vorname"><br>
-  <input type="text" name="nachname" id="nachname" placeholder="Nachname"><br>
-  <button>Speichern</button>
-</form>
-<p>{{dozentenForm.value | json}}</p>
-<p>{{dozentenForm.valid}}</p>
+<div class="container">
+  <h3>neuen Dozenten erfassen</h3>
+  <form #dozentForm="ngForm">
+    <div class="form-group">
+      <input  type="number"
+              class="form-control"
+              placeholder="ID"
+              ngModel
+              name="id"
+              >
+
+      <input  type="text"
+              class="form-control"
+              placeholder="Vorname"
+              ngModel
+              name="vorname"
+              >
+
+      <input  type="text"
+              class="form-control"
+              placeholder="Nachname"
+              ngModel
+              name="nachname"
+              >
+
+<button class="btn btn-primary" type="submit">Speichern</button>
+    </div>
+  </form>
+</div>
+{{dozentForm.value | json}}

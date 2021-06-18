@@ -1,7 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, NgModule, OnInit } from '@angular/core';
 import { Dozent } from '../dozent';
 import { DozentService } from '../dozent.service';
-
+import { FormsModule } from '@angular/forms';
+import { MaterialModule } from '../material/material.module';
+import { MatTableDataSource } from '@angular/material/table';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-dozenten',
@@ -10,11 +13,14 @@ import { DozentService } from '../dozent.service';
 })
 export class DozentenComponent implements OnInit {
 
-  eingabe = false;
   dozenten: Dozent[]=[];
   selectedDozent?: Dozent;
+  newDozent: Dozent;
 
-  constructor(public dozentService: DozentService) { }
+
+
+
+  constructor(private dozentService: DozentService) { }
 
   ngOnInit(): void {
     this.getDozenten();
@@ -29,12 +35,7 @@ export class DozentenComponent implements OnInit {
         .subscribe(dozenten => this.dozenten = dozenten);
   }
 
-  open(){
-    //this.eingabe !=eingabe
+  createDozent(): void{
+    this.dozentService.create(this.newDozent);
   }
-
- /* newDozentForm(){
-    return console.log("Hier kommt das Formular")
-  }*/
-
 }

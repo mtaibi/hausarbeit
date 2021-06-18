@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Dozent } from '../dozent';
+import { DozentService } from '../dozent.service';
 
 @Component({
   selector: 'app-form',
@@ -6,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./form.component.css']
 })
 export class FormComponent implements OnInit {
+
+  newDozent: Dozent[];
+  dozenten: Dozent[]=[];
 
   constructor() { }
 

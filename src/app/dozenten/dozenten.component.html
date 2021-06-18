@@ -1,29 +1,26 @@
 
-<p>Geben Sie die Daten des Dozenten ein:</p>
-<br>
-<h2>Dozenten - Übersicht</h2>
+<hr>
+
+<app-form></app-form>
+<hr>
+
+<h3>Dozenten - Übersicht</h3>
+
 <ul class="dozenten">
   <li *ngFor="let dozent of dozenten"
     [class.selected]="dozent === selectedDozent"
     (click)="onSelect(dozent)">
-    <span class="badge">{{dozent.id}}</span> {{dozent.vorname}} {{dozent.nachname}}
+    <span class="badge">{{dozent.id}}</span>{{dozent.vorname}}, {{dozent.nachname}}
   </li>
 </ul>
+<hr>
 
-<app-dozent-detail [dozent]="selectedDozent"></app-dozent-detail>
-<br>
-<button (click)="open()" >neuen Dozenten anlegen</button>
-<br>
-<div *ngIf=eingabe>
-<p>
-  <input type="text" placeholder="ID">
-</p>
-<p>
-  <input type="text" placeholder="Vorname">
-</p>
-<span>
-  <input type="text" placeholder="Nachname">
-</span>
-</div>
+
+
+
+
+
+
+
 
 

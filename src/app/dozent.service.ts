@@ -12,7 +12,9 @@ export class DozentService {
 
   list: BehaviorSubject<Dozent[]> = new BehaviorSubject([]);
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) {
+
+  }
 
   getDozenten(): Observable<Dozent[]>{
     return this.http.get<Dozent[]>(environment.dozentEndpoint)
