@@ -4,8 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-erklaerung-artefakt-design-science-research',
   template: `
     <p>
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    </p>
+    Die Forschungsfrage wird in der vorliegenden Seminararbeit anhand von vorhandener Literatur zu Entwurfsmustern, objektorientierter Programmierung sowie der Dokumentation zu Angular betrachtet. Die praktische Umsetzung erfolgt anhand eines in Angular programmierten Prototypen, der die im Folgenden beschriebenen Methoden zur Datenbindung sowie Datenhaltung demonstriert.    </p>
   `,
   styles: [
   ]

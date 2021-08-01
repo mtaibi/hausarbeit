@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DozentService } from './dozent.service';
 
 @Component({
   selector: 'app-root',
@@ -13,4 +14,6 @@ export class AppComponent {
   log(state){
     console.log(state)
   }
+
+
 }

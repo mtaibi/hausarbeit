@@ -4,7 +4,12 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-datenhaltung',
   template: `
     <p>
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    Ein wichtiges Prinzip der Service-orientierten Architektur bzw. SPA ist die Kommunika-tion zwischen View, Model und ViewModel sowie der hierfür notwendige Datenfluss.
+Hierbei kommen zwei Kommunikationsmustern zum Einsatz, One-Way-Binding sowie auch Two-Way-Binding, wobei hier nach vier Aspekten unterschieden werden muss [2, p. 396]:<br>
+•	Rückmeldung über den Miss-/Erfolg des Datenaufrufs<br>
+•	Rückmeldung über das Ergebnis des Datenaufrufs<br>
+•	Rückmeldung außerhalb der Anfrage zu einem späteren Zeitpunkt (Asynchronität)<br>
+•	Aufbau einer Sitzung: exklusive Nutzung durch einen einzelnen Service<br>
     </p>
   `,
   styles: [

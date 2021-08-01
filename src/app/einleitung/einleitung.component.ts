@@ -4,11 +4,14 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-einleitung',
   template: `
     <p>
-    Angular is an application design framework and development platform for creating efficient and sophisticated single-page apps.<br>
-    These Angular docs help you learn and use the Angular framework and development platform, from your first application to optimizing complex single-page apps for enterprises.<br>
-     Tutorials and guides include downloadable examples to accelerate your projects.
-    </p>
-    <img src="/assets/Logo.jpg">
+    Stand Januar 2021 nutzten weltweit mehr als 5,22 Milliarden Menschen ein Mobiltelefon sowie mehr als 4,66 Milliarden Menschen das Internet.
+    Die schiere Menge an Nutzern und Clients sowie der Nutzung von serviceorientierte Architekturen stellt <br>
+    die Entwickler jedoch vor einige Schwierigkeiten in der verteilten Datenhaltung.
+    Als grundlegende Probleme lassen sich die Zuverlässigkeit von Netzwerken, die zur Verfügung stehende Bandbreite, Netzwerktopologien (wie z.B. UMTS, LTE, 5G, WLAN – auch im Wechsel), „Kosten“ für den Datentransport sowie die Netzwerksicherheit identifizieren. [2]
+    <br>
+    <br>
+
+    <img src="/assets/statistik.png" height="500px" width="800px">
   `,
   styles: [
   ]

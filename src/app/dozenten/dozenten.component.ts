@@ -20,7 +20,9 @@ export class DozentenComponent implements OnInit {
 
 
 
-  constructor(private dozentService: DozentService) { }
+  constructor(private dozentService: DozentService) {
+    this.selectedDozent = this.newDozent
+  }
 
   ngOnInit(): void {
     this.getDozenten();

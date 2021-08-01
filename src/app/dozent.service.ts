@@ -15,7 +15,6 @@ export class DozentService {
   constructor(private http: HttpClient) {
 
   }
-
   getDozenten(): Observable<Dozent[]>{
     return this.http.get<Dozent[]>(environment.dozentEndpoint)
       .pipe(

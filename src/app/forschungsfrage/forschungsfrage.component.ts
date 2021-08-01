@@ -4,8 +4,8 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-forschungsfrage',
   template: `
     <p>
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    </p>
+    Wie kann mit Angular der Datenfluss gestaltet und dabei der Datenverbrauch minimiert werden?    </p>
+    <img src="assets/Logo.jpg" alt="">
   `,
   styles: [
   ]

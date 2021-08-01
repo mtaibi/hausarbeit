@@ -19,11 +19,6 @@
       "id": 4,
       "vorname": "Peter",
       "nachname": "Hoffmann"
-    },
-    {
-    "id": 5,
-    "vorname": "Max",
-    "nachname": "Mustermann"
-  }
+    }
   ]
 }

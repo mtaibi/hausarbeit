@@ -1,5 +1,5 @@
-export interface Dozent {
-  id: number,
-  vorname: string,
-  nachname: string
+export class Dozent {
+  public id: number;
+  public vorname: string;
+  public nachname: string
 }

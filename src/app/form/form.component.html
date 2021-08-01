@@ -1,25 +1,27 @@
-<div class="container">
-  <h3>neuen Dozenten erfassen</h3>
-  <form #dozentForm="ngForm">
+<div class="container-fluid">
+  <h3>HTTP-Beispiel</h3>
+  <p>Hier können Sie beispielsweise einen neuen Dozenten erfassen. Aus zeitlichen Gründen konnte ich lediglich die POST-Methode implementieren. Die eingegebenen Daten werden in einem JSON-Server gespeichert. Zur Aktualisierung der Liste bitte F5 drücken!</p>
+  <form #dozentForm="ngForm" (ngSubmit)="onSubmit()" novalidate>
+
     <div class="form-group">
       <input  type="number"
               class="form-control"
               placeholder="ID"
-              ngModel
+              [(ngModel)]="dozentModel.id"
               name="id"
               >
 
       <input  type="text"
               class="form-control"
               placeholder="Vorname"
-              ngModel
+              [(ngModel)]="dozentModel.vorname"
               name="vorname"
               >
 
       <input  type="text"
               class="form-control"
               placeholder="Nachname"
-              ngModel
+              [(ngModel)]="dozentModel.nachname"
               name="nachname"
               >
 
@@ -27,4 +29,5 @@
     </div>
   </form>
 </div>
-{{dozentForm.value | json}}
+
+
