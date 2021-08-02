@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { DozentService } from './dozent.service';
 
 @Component({
   selector: 'app-root',
@@ -9,6 +8,9 @@ import { DozentService } from './dozent.service';
 export class AppComponent {
   title = 'Hausarbeit - strategische IT-Entwicklung & Trends';
   title2 = 'Datenbindung und Datenhaltung mit Angular';
+  student = 'Student: Murad Taibi';
+  matrikelnummer = 'Matrikelnummer: 490215';
+  dozent = 'Dozent: Prof. Dr. Klaus Wilderotter';
   opened = false;
 
   log(state){

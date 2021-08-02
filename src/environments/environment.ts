@@ -3,8 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
-  dozentEndpoint: 'http://localhost:3000/dozenten'
+  production: true,
+  dozentEndpoint: 'https://2qfjip4iwzec9rzzykv8ja-on.drv.tw/Strategische%20IT-Entwicklung%20u.%20Trends/dozenten'
 };
 
 /*
