@@ -4,7 +4,7 @@
 
 export const environment = {
   production: true,
-  dozentEndpoint: 'https://2qfjip4iwzec9rzzykv8ja-on.drv.tw/Strategische%20IT-Entwicklung%20u.%20Trends/dozenten'
+  dozentEndpoint: './'
 };
 
 /*
